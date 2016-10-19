@@ -1,1 +1,1 @@
-<input id=i><button onclick=with(speechSynthesis)[u.voice]=getVoices(u=new(SpeechSynthesisUtterance)(i.value)),speak(u)>Go
+<input id=i onchange="speechSynthesis.speak(new SpeechSynthesisUtterance(value))">
